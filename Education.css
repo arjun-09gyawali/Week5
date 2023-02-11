@@ -1,0 +1,163 @@
+body{
+    background-color:whitesmoke;
+}
+header nav {
+    background-color:rgb(23,162,184);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top:-10px;
+    margin-left: -10px;
+
+
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    font-size: 20px;
+  }
+  
+
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 120px;
+  }
+  marquee{
+    font-size: 30px;
+    position:absolute;
+    top: 100px;
+    color:rgb(240, 9, 9);
+    font-weight: bolder;
+
+  }
+/* .image1{
+    
+    width:70%;
+    height: 70%;
+    position:absolute;
+    left: 250px;
+    top: 150px;
+} */
+h1{
+    position: relative;
+    text-align: center;
+    text-decoration: overline;
+    top:80px;
+    color:rgb(53,39,101);
+}
+.table{
+    margin-left: 420px;
+    height: 300px;
+    width: 650px;
+    font-size:20px;
+    text-align: center;
+    background-color: rgb(245,171,170);
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.school1{
+    font-weight: bolder;
+    position: relative;
+    font-size: 20px;
+    text-decoration:underline;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:rgb(255,117,74);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left:70px;
+    margin: 30px;
+    top: 50px;
+}
+.school2{
+    font-weight: bolder;
+    position: relative;
+    font-size: 20px;
+    text-decoration:underline;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:rgb(255,117,74);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 310px;
+    margin: 30px;
+    top: 50px;
+
+}
+.school3{
+    font-weight: bolder;
+    position: relative;
+    font-size: 20px;
+    text-decoration:underline;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:rgb(255,117,74);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 600px;
+    top:50px
+}
+a:any-link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:whitesmoke;
+}
+
+.image2{
+    margin-left: 230px;
+}
+
+.image3{
+    margin-left: 230px;
+}
+h4{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+    color: red;
+    text-decoration:underline;
+
+}
+.college{
+    text-align: center;
+    padding-top: 70px;
+}
+@media screen and (max-width:768px) {
+    .school1{
+        left: 70px;
+    }
+    .school2{
+        left: 70px;
+        top: 80px;
+    }
+    .school3{
+        left: 70px;
+        top:110px;
+    }
+}

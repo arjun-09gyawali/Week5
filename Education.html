@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="Education.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="Hobbies.html" target="_blank">Hobbies</a></li>
+            <li><a href="family.html" target="_blank">Family</a></li>
+            <li><a href="contact.html" target="_blank" >Contact</a></li>
+            <li><a href="" target="_blank" >Reference</a></li>
+          </ul>
+        </nav>
+      </header>
+      <marquee scrollamount="15" >My Education</marquee>
+
+<h1>Colleges I Studied</h1>
+<div class="college">
+<img name="slider" width="1200px" height=500px>
+    <script>
+        var i=0;
+        var images=[];
+        var time = 1200;
+
+        images[0] = 'newhorizon.jpg';
+        images[1] = 'tilottama.jpg';
+        images[2] = 'hck.jpg';
+
+        function slideshow(){
+            document.slider.src = images[i];
+            if(i<images.length-1){
+               i++;
+            }else{
+                i=0;
+            }
+
+            setTimeout("slideshow()",time);
+        }
+
+        window.onload = slideshow;
+    
+    </script>
+    </div>
+
+    <div class="school1">
+        <a href="https://newhorizon.edu.np/" target="_blank">New Horizon Institute</a>
+    </div>
+    <div class="school2">
+        <a href="https://www.tilottama.edu.np/" target="_blank">Tilottama College</a>
+    </div>
+    <div class="school3">
+        <a href="https://heraldcollege.edu.np/" target="_blank">Herald College Kathmandu</a>
+    </div>
+</section>
+     <h4>Timeline of my Study in different Colleges</h4>
+<table class="table" border="1" cellspacing="0">
+    <tr>
+        <th>Colleges</th>
+        <th>Years of Study</th>
+        <th>Examination and Degree</th>
+        <th>Grades</th>
+    </tr>
+    <tr>
+        <td>New Horizon Institute</td>
+        <td>2006-2019</td>
+        <td>SEE Exams</td>
+        <td>3.65</td>
+    </tr>
+    <tr>
+        <td>Tilottama College</td>
+        <td>2019-2021</td>
+        <td>+2 Examinations</td>
+        <td>3.59</td>
+    </tr>
+    <tr>
+        <td>Herald College Kathmandu</td>
+        <td>2022-present</td>
+        <td>Bachelor's Degree</td>
+        <td>Pending</td>
+    </tr>
+</table>
+</body>
+</html>

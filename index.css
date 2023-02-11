@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bakbak+One&family=Chivo+Mono:ital,wght@0,500;0,700;0,800;1,900&family=Hanken+Grotesk:wght@200&family=Open+Sans:wght@300&family=Raleway&family=Roboto:wght@400;900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bakbak+One&family=Chivo+Mono:ital,wght@0,500;0,700;0,800;1,900&family=Hanken+Grotesk:wght@200&family=Itim&family=Open+Sans:wght@300&family=Raleway&family=Righteous&family=Roboto:wght@400;500;900&display=swap);
+body{
+    /* background-image: url("https://images.unsplash.com/photo-1620646233562-f2a31ad24425?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRhcmslMjBuaWdodHxlbnwwfHwwfHw%3D&w=1000&q=80"); */
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    
+    
+}
+/* Style the header: fixed position (always stay at the top) */
+
+h1{
+                       /* My Name */
+    position:relative;
+    left:100px;
+    top:445px;
+    color:blueviolet;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h2{
+                        /* Hi there */
+    position:relative;     
+    left: 800px;
+    top:300px;
+    color: black;
+    text-decoration: underline;
+}
+        
+    
+.card {
+                   /* Image */
+    width: 400px;
+    height: 400px;
+    left:20px;
+    top: -90px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card .img-main{
+    width: 400px;
+    
+}
+ .card .img-top{
+    width: 400px;
+    display:contents;
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+
+marquee{
+    /* position: relative;
+    text-align: center;
+    animation: mymove 5s;
+    animation-iteration-count:infinite ; */
+    font-size:30px ;
+    
+}
+header nav {
+    background-color: rgb(23,162,184);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top:-10px;
+    margin-left: -10px;
+
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    font-size: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 120px;
+  }
+
+a:any-link{
+    color:white;
+    text-decoration: none;
+
+ }
+
+a:hover{
+    /* color:red; */
+    background-color: transparent;
+    text-decoration:none;
+}
+
+.arjuncv{
+                                  /* Download my CV */
+    border: 2px  transparent;
+    font-size: 20px;
+    position: relative;
+    font-weight: 1000;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:rgb(255,117,74);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 400px;
+    bottom:10px;
+}
+ .arjuncv:link{
+    text-decoration: none;
+    
+}
+.Message{
+                              /* Facebook Contact */
+    border: 10px  transparent;
+    font-size: 18px;
+    position: relative;
+    font-weight: 1000;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:rgb(24,119,242);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 400px;
+    bottom: 10px;
+}
+
+p{         
+                             /* paragraph */
+    position: relative;
+    left:505px;
+    bottom: 250px;
+    font-weight:lighter;
+    font-size: 29px;
+    text-align:justify;
+    font-family:poppins;
+    color:black;
+    font-family: 'Itim', cursive;
+
+    
+    
+}
+                    /* My name in Nepali */
+h3{
+    position:relative;
+    left:167px;
+    top:425px;
+    color:rgb(35, 1, 37);
+
+
+}
+h4{
+                          /* Hi there */
+    position: relative;
+    left:800px;
+    top:-700px;
+    font-size: 40px;
+    font-weight: bolder;
+    color:black;
+    color:lightseagreen
+}
+
+  h5{
+    font-size: 15px;
+    color: white;
+
+
+  }
+                            /* footer   */
+  h6{                           
+    font-size: 15px;
+    color: white;
+   padding-left: 800px;
+   margin-top: 18px;
+  }
+    .fa{
+        padding: 15px;
+        font-size: 30px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.6;
+}
+
+.fa-linkedin {
+    background: rgb(0, 123, 181);
+    color: white;
+
+}
+.fa-instagram {
+    background: rgb(18, 86, 136);
+    color: white;
+  }
+  .fa-twitter {
+    background: rgb(85, 172, 238);
+    color: white;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+    color: rgb(221, 214, 214);
+  }
+    @media only screen and (max-width: 768px) {
+      h1 {
+        left: 50px;
+      }
+    
+      h2 {
+        left: 400px;
+      }
+    
+      .card {
+        width: 300px;
+        height: 300px;
+      }
+    
+      .card .img-main {
+        width: 300px;
+      }
+    
+      .card .img-top {
+        width: 300px;
+      }
+    
+      .arjuncv {
+        left: 300px;
+      }
+      .paragraph {
+        float: left;
+      }
+      h3 {
+        clear: both;
+      }
+      
+    }
+    
+  

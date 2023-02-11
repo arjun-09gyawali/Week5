@@ -1,0 +1,36 @@
+header nav {
+  background-color: rgb(23,162,184);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top:-10px;
+  margin-left: -10px;
+
+  
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 120px;
+}
+.family{
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+  
+
+  

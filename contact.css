@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(235, 246, 243)
+}
+header nav {
+    background-color: rgb(23,162,184);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top:-10px;
+    margin-left: -10px;
+
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    font-size: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 120px;
+  }
+.container {
+width: 500px;
+padding-top: 100px;
+font-weight: bold;
+font-size: 20px;
+
+margin: 0 auto;
+text-align: center;
+}
+
+input[type="text"],
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #45a049;
+}

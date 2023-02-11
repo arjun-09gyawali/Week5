@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Family</title>
+  <link rel="stylesheet" type="text/css" href="family.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="Education.html" target="_blank">Education</a></li>
+        <li><a href="Hobbies.html" target="_blank">Hobbies</a></li>
+        <li><a href="contact.html" target="_blank" >Contact</a></li>
+        <li><a href="" target="_blank" >Reference</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="family">
+    <img name="slider" width="650px" height=650px>
+  <script>
+    var i=0;
+    var images=[];
+    var time = 1200;
+    images[0] = 'withdad.jpg';
+    images[1] = 'withmom.jpg';
+    images[2] = 'family.jpg';
+    images[3] = 'withmom1.jpg';
+
+    function slideshow(){
+        document.slider.src = images[i];
+        if(i<images.length-1){
+           i++;
+        }else{
+            i=0;
+        }
+
+        setTimeout("slideshow()",time);
+    }
+
+    window.onload = slideshow;
+
+</script>
+</body>
+</html>
+  
